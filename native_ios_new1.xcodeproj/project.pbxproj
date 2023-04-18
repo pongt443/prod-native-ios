@@ -19,41 +19,41 @@
 		0FAE53ED29E4E7F900A8FD35 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE53EC29E4E7F900A8FD35 /* CardView.swift */; };
 		1E20BFA5F6B380D8A9814702 /* Pods_native_ios_new1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97456C315A10210A0B0DA906 /* Pods_native_ios_new1.framework */; };
 		78429931502E8C83B1A541C9 /* Pods_native_ios_new1_native_ios_new1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816DED64535CD54C63135DB9 /* Pods_native_ios_new1_native_ios_new1UITests.framework */; };
-		EF12E83729ED965C00E74040 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82429ED965700E74040 /* Flutter.xcframework */; };
-		EF12E83829ED965C00E74040 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82429ED965700E74040 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E83929ED965C00E74040 /* google_maps_flutter_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82529ED965700E74040 /* google_maps_flutter_ios.xcframework */; };
-		EF12E83B29ED965C00E74040 /* video_player_avfoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82629ED965800E74040 /* video_player_avfoundation.xcframework */; };
-		EF12E83C29ED965C00E74040 /* video_player_avfoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82629ED965800E74040 /* video_player_avfoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E83D29ED965C00E74040 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82729ED965800E74040 /* FMDB.xcframework */; };
-		EF12E83E29ED965C00E74040 /* FMDB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82729ED965800E74040 /* FMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E83F29ED965D00E74040 /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82829ED965800E74040 /* shared_preferences_foundation.xcframework */; };
-		EF12E84029ED965D00E74040 /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82829ED965800E74040 /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84129ED965D00E74040 /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82929ED965800E74040 /* device_info_plus.xcframework */; };
-		EF12E84229ED965D00E74040 /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82929ED965800E74040 /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84329ED965D00E74040 /* network_type_reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82A29ED965900E74040 /* network_type_reachability.xcframework */; };
-		EF12E84429ED965E00E74040 /* network_type_reachability.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82A29ED965900E74040 /* network_type_reachability.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84529ED965E00E74040 /* realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82B29ED965900E74040 /* realm.xcframework */; };
-		EF12E84629ED965E00E74040 /* realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82B29ED965900E74040 /* realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84729ED965F00E74040 /* fluttertoast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82C29ED965900E74040 /* fluttertoast.xcframework */; };
-		EF12E84829ED965F00E74040 /* fluttertoast.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82C29ED965900E74040 /* fluttertoast.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84929ED965F00E74040 /* flutter_icmp_ping.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82D29ED965900E74040 /* flutter_icmp_ping.xcframework */; };
-		EF12E84A29ED965F00E74040 /* flutter_icmp_ping.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82D29ED965900E74040 /* flutter_icmp_ping.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84B29ED966000E74040 /* Toast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82E29ED965A00E74040 /* Toast.xcframework */; };
-		EF12E84C29ED966000E74040 /* Toast.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82E29ED965A00E74040 /* Toast.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E84D29ED966000E74040 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E82F29ED965A00E74040 /* FlutterPluginRegistrant.xcframework */; };
-		EF12E84F29ED966100E74040 /* Reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83029ED965A00E74040 /* Reachability.xcframework */; };
-		EF12E85029ED966200E74040 /* Reachability.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83029ED965A00E74040 /* Reachability.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E85129ED966200E74040 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83129ED965A00E74040 /* App.xcframework */; };
-		EF12E85229ED966200E74040 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83129ED965A00E74040 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E85329ED966300E74040 /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83229ED965A00E74040 /* sqflite.xcframework */; };
-		EF12E85429ED966300E74040 /* sqflite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83229ED965A00E74040 /* sqflite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E85529ED966400E74040 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83329ED965B00E74040 /* url_launcher_ios.xcframework */; };
-		EF12E85629ED966400E74040 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83329ED965B00E74040 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E85729ED966500E74040 /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83429ED965B00E74040 /* permission_handler_apple.xcframework */; };
-		EF12E85929ED966600E74040 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83529ED965B00E74040 /* path_provider_foundation.xcframework */; };
-		EF12E85A29ED966600E74040 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83529ED965B00E74040 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EF12E85B29ED966700E74040 /* wakelock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83629ED965C00E74040 /* wakelock.xcframework */; };
-		EF12E85C29ED966700E74040 /* wakelock.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF12E83629ED965C00E74040 /* wakelock.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D35F629EE988100D63553 /* Reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E329EE987E00D63553 /* Reachability.xcframework */; };
+		EF4D35F729EE988100D63553 /* Reachability.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E329EE987E00D63553 /* Reachability.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D35F829EE988100D63553 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E429EE987E00D63553 /* FMDB.xcframework */; };
+		EF4D35F929EE988100D63553 /* FMDB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E429EE987E00D63553 /* FMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D35FA29EE988100D63553 /* realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E529EE987E00D63553 /* realm.xcframework */; };
+		EF4D35FB29EE988100D63553 /* realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E529EE987E00D63553 /* realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D35FC29EE988200D63553 /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E629EE987E00D63553 /* permission_handler_apple.xcframework */; };
+		EF4D35FE29EE988200D63553 /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E729EE987F00D63553 /* device_info_plus.xcframework */; };
+		EF4D35FF29EE988200D63553 /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E729EE987F00D63553 /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360029EE988200D63553 /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E829EE987F00D63553 /* sqflite.xcframework */; };
+		EF4D360129EE988300D63553 /* sqflite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E829EE987F00D63553 /* sqflite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360229EE988300D63553 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E929EE987F00D63553 /* App.xcframework */; };
+		EF4D360329EE988300D63553 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35E929EE987F00D63553 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360429EE988400D63553 /* google_maps_flutter_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EA29EE987F00D63553 /* google_maps_flutter_ios.xcframework */; };
+		EF4D360629EE988400D63553 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EB29EE987F00D63553 /* Flutter.xcframework */; };
+		EF4D360729EE988500D63553 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EB29EE987F00D63553 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360829EE988500D63553 /* video_player_avfoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EC29EE987F00D63553 /* video_player_avfoundation.xcframework */; };
+		EF4D360929EE988500D63553 /* video_player_avfoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EC29EE987F00D63553 /* video_player_avfoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360A29EE988600D63553 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35ED29EE988000D63553 /* url_launcher_ios.xcframework */; };
+		EF4D360B29EE988600D63553 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35ED29EE988000D63553 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D360C29EE988600D63553 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EE29EE988000D63553 /* FlutterPluginRegistrant.xcframework */; };
+		EF4D360E29EE988700D63553 /* Toast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EF29EE988000D63553 /* Toast.xcframework */; };
+		EF4D360F29EE988800D63553 /* Toast.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35EF29EE988000D63553 /* Toast.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361029EE988800D63553 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F029EE988000D63553 /* path_provider_foundation.xcframework */; };
+		EF4D361129EE988900D63553 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F029EE988000D63553 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361229EE988900D63553 /* network_type_reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F129EE988000D63553 /* network_type_reachability.xcframework */; };
+		EF4D361329EE988A00D63553 /* network_type_reachability.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F129EE988000D63553 /* network_type_reachability.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361429EE988B00D63553 /* flutter_icmp_ping.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F229EE988000D63553 /* flutter_icmp_ping.xcframework */; };
+		EF4D361529EE988B00D63553 /* flutter_icmp_ping.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F229EE988000D63553 /* flutter_icmp_ping.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361629EE988C00D63553 /* wakelock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F329EE988000D63553 /* wakelock.xcframework */; };
+		EF4D361729EE988C00D63553 /* wakelock.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F329EE988000D63553 /* wakelock.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361829EE988D00D63553 /* shared_preferences_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F429EE988100D63553 /* shared_preferences_foundation.xcframework */; };
+		EF4D361929EE988E00D63553 /* shared_preferences_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F429EE988100D63553 /* shared_preferences_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF4D361A29EE988E00D63553 /* fluttertoast.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F529EE988100D63553 /* fluttertoast.xcframework */; };
+		EF4D361B29EE988F00D63553 /* fluttertoast.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D35F529EE988100D63553 /* fluttertoast.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8D7D1DECEF0007246B135F2 /* Pods_native_ios_new1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D689345157F5F5FE0220735 /* Pods_native_ios_new1Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,28 +75,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF12E85D29ED966800E74040 /* Embed Frameworks */ = {
+		EF4D35E229EE97A800D63553 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EF12E84829ED965F00E74040 /* fluttertoast.xcframework in Embed Frameworks */,
-				EF12E85629ED966400E74040 /* url_launcher_ios.xcframework in Embed Frameworks */,
-				EF12E85229ED966200E74040 /* App.xcframework in Embed Frameworks */,
-				EF12E83E29ED965C00E74040 /* FMDB.xcframework in Embed Frameworks */,
-				EF12E85C29ED966700E74040 /* wakelock.xcframework in Embed Frameworks */,
-				EF12E84629ED965E00E74040 /* realm.xcframework in Embed Frameworks */,
-				EF12E84029ED965D00E74040 /* shared_preferences_foundation.xcframework in Embed Frameworks */,
-				EF12E84229ED965D00E74040 /* device_info_plus.xcframework in Embed Frameworks */,
-				EF12E83829ED965C00E74040 /* Flutter.xcframework in Embed Frameworks */,
-				EF12E84A29ED965F00E74040 /* flutter_icmp_ping.xcframework in Embed Frameworks */,
-				EF12E85A29ED966600E74040 /* path_provider_foundation.xcframework in Embed Frameworks */,
-				EF12E83C29ED965C00E74040 /* video_player_avfoundation.xcframework in Embed Frameworks */,
-				EF12E84429ED965E00E74040 /* network_type_reachability.xcframework in Embed Frameworks */,
-				EF12E84C29ED966000E74040 /* Toast.xcframework in Embed Frameworks */,
-				EF12E85029ED966200E74040 /* Reachability.xcframework in Embed Frameworks */,
-				EF12E85429ED966300E74040 /* sqflite.xcframework in Embed Frameworks */,
+				EF4D361729EE988C00D63553 /* wakelock.xcframework in Embed Frameworks */,
+				EF4D361329EE988A00D63553 /* network_type_reachability.xcframework in Embed Frameworks */,
+				EF4D35FB29EE988100D63553 /* realm.xcframework in Embed Frameworks */,
+				EF4D360329EE988300D63553 /* App.xcframework in Embed Frameworks */,
+				EF4D35F929EE988100D63553 /* FMDB.xcframework in Embed Frameworks */,
+				EF4D360129EE988300D63553 /* sqflite.xcframework in Embed Frameworks */,
+				EF4D360929EE988500D63553 /* video_player_avfoundation.xcframework in Embed Frameworks */,
+				EF4D35FF29EE988200D63553 /* device_info_plus.xcframework in Embed Frameworks */,
+				EF4D361129EE988900D63553 /* path_provider_foundation.xcframework in Embed Frameworks */,
+				EF4D361B29EE988F00D63553 /* fluttertoast.xcframework in Embed Frameworks */,
+				EF4D360729EE988500D63553 /* Flutter.xcframework in Embed Frameworks */,
+				EF4D360F29EE988800D63553 /* Toast.xcframework in Embed Frameworks */,
+				EF4D361929EE988E00D63553 /* shared_preferences_foundation.xcframework in Embed Frameworks */,
+				EF4D360B29EE988600D63553 /* url_launcher_ios.xcframework in Embed Frameworks */,
+				EF4D35F729EE988100D63553 /* Reachability.xcframework in Embed Frameworks */,
+				EF4D361529EE988B00D63553 /* flutter_icmp_ping.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,25 +127,25 @@
 		B8728C3ECCCEF65E989E9A7B /* Pods-native_ios_new1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-native_ios_new1Tests.debug.xcconfig"; path = "Target Support Files/Pods-native_ios_new1Tests/Pods-native_ios_new1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E20018562B8778B135D65985 /* Pods-native_ios_new1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-native_ios_new1.release.xcconfig"; path = "Target Support Files/Pods-native_ios_new1/Pods-native_ios_new1.release.xcconfig"; sourceTree = "<group>"; };
 		EF10D525368CD16DB2D0AFC7 /* Pods-native_ios_new1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-native_ios_new1.debug.xcconfig"; path = "Target Support Files/Pods-native_ios_new1/Pods-native_ios_new1.debug.xcconfig"; sourceTree = "<group>"; };
-		EF12E82429ED965700E74040 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/Flutter.xcframework"; sourceTree = "<group>"; };
-		EF12E82529ED965700E74040 /* google_maps_flutter_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = google_maps_flutter_ios.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/google_maps_flutter_ios.xcframework"; sourceTree = "<group>"; };
-		EF12E82629ED965800E74040 /* video_player_avfoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = video_player_avfoundation.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/video_player_avfoundation.xcframework"; sourceTree = "<group>"; };
-		EF12E82729ED965800E74040 /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/FMDB.xcframework"; sourceTree = "<group>"; };
-		EF12E82829ED965800E74040 /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/shared_preferences_foundation.xcframework"; sourceTree = "<group>"; };
-		EF12E82929ED965800E74040 /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = device_info_plus.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/device_info_plus.xcframework"; sourceTree = "<group>"; };
-		EF12E82A29ED965900E74040 /* network_type_reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = network_type_reachability.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/network_type_reachability.xcframework"; sourceTree = "<group>"; };
-		EF12E82B29ED965900E74040 /* realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = realm.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/realm.xcframework"; sourceTree = "<group>"; };
-		EF12E82C29ED965900E74040 /* fluttertoast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = fluttertoast.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/fluttertoast.xcframework"; sourceTree = "<group>"; };
-		EF12E82D29ED965900E74040 /* flutter_icmp_ping.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_icmp_ping.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/flutter_icmp_ping.xcframework"; sourceTree = "<group>"; };
-		EF12E82E29ED965A00E74040 /* Toast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Toast.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/Toast.xcframework"; sourceTree = "<group>"; };
-		EF12E82F29ED965A00E74040 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
-		EF12E83029ED965A00E74040 /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/Reachability.xcframework"; sourceTree = "<group>"; };
-		EF12E83129ED965A00E74040 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/App.xcframework"; sourceTree = "<group>"; };
-		EF12E83229ED965A00E74040 /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/sqflite.xcframework"; sourceTree = "<group>"; };
-		EF12E83329ED965B00E74040 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/url_launcher_ios.xcframework"; sourceTree = "<group>"; };
-		EF12E83429ED965B00E74040 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/permission_handler_apple.xcframework"; sourceTree = "<group>"; };
-		EF12E83529ED965B00E74040 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/path_provider_foundation.xcframework"; sourceTree = "<group>"; };
-		EF12E83629ED965C00E74040 /* wakelock.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = wakelock.xcframework; path = "../mfaf_beta_version/living_network/ios-living-network/Release/wakelock.xcframework"; sourceTree = "<group>"; };
+		EF4D35E329EE987E00D63553 /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/Reachability.xcframework"; sourceTree = "<group>"; };
+		EF4D35E429EE987E00D63553 /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/FMDB.xcframework"; sourceTree = "<group>"; };
+		EF4D35E529EE987E00D63553 /* realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = realm.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/realm.xcframework"; sourceTree = "<group>"; };
+		EF4D35E629EE987E00D63553 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/permission_handler_apple.xcframework"; sourceTree = "<group>"; };
+		EF4D35E729EE987F00D63553 /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = device_info_plus.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/device_info_plus.xcframework"; sourceTree = "<group>"; };
+		EF4D35E829EE987F00D63553 /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/sqflite.xcframework"; sourceTree = "<group>"; };
+		EF4D35E929EE987F00D63553 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/App.xcframework"; sourceTree = "<group>"; };
+		EF4D35EA29EE987F00D63553 /* google_maps_flutter_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = google_maps_flutter_ios.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/google_maps_flutter_ios.xcframework"; sourceTree = "<group>"; };
+		EF4D35EB29EE987F00D63553 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/Flutter.xcframework"; sourceTree = "<group>"; };
+		EF4D35EC29EE987F00D63553 /* video_player_avfoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = video_player_avfoundation.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/video_player_avfoundation.xcframework"; sourceTree = "<group>"; };
+		EF4D35ED29EE988000D63553 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/url_launcher_ios.xcframework"; sourceTree = "<group>"; };
+		EF4D35EE29EE988000D63553 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
+		EF4D35EF29EE988000D63553 /* Toast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Toast.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/Toast.xcframework"; sourceTree = "<group>"; };
+		EF4D35F029EE988000D63553 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/path_provider_foundation.xcframework"; sourceTree = "<group>"; };
+		EF4D35F129EE988000D63553 /* network_type_reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = network_type_reachability.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/network_type_reachability.xcframework"; sourceTree = "<group>"; };
+		EF4D35F229EE988000D63553 /* flutter_icmp_ping.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = flutter_icmp_ping.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/flutter_icmp_ping.xcframework"; sourceTree = "<group>"; };
+		EF4D35F329EE988000D63553 /* wakelock.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = wakelock.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/wakelock.xcframework"; sourceTree = "<group>"; };
+		EF4D35F429EE988100D63553 /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/shared_preferences_foundation.xcframework"; sourceTree = "<group>"; };
+		EF4D35F529EE988100D63553 /* fluttertoast.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = fluttertoast.xcframework; path = "../../../mfaf_beta_version/living_network/ios-living-network/Release/fluttertoast.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,26 +153,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF12E83F29ED965D00E74040 /* shared_preferences_foundation.xcframework in Frameworks */,
-				EF12E84D29ED966000E74040 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				EF12E85329ED966300E74040 /* sqflite.xcframework in Frameworks */,
-				EF12E85129ED966200E74040 /* App.xcframework in Frameworks */,
-				EF12E85529ED966400E74040 /* url_launcher_ios.xcframework in Frameworks */,
-				EF12E83B29ED965C00E74040 /* video_player_avfoundation.xcframework in Frameworks */,
-				EF12E84729ED965F00E74040 /* fluttertoast.xcframework in Frameworks */,
-				EF12E83929ED965C00E74040 /* google_maps_flutter_ios.xcframework in Frameworks */,
-				EF12E84529ED965E00E74040 /* realm.xcframework in Frameworks */,
-				EF12E84929ED965F00E74040 /* flutter_icmp_ping.xcframework in Frameworks */,
-				EF12E85929ED966600E74040 /* path_provider_foundation.xcframework in Frameworks */,
-				EF12E83D29ED965C00E74040 /* FMDB.xcframework in Frameworks */,
-				EF12E84F29ED966100E74040 /* Reachability.xcframework in Frameworks */,
-				EF12E84129ED965D00E74040 /* device_info_plus.xcframework in Frameworks */,
-				EF12E83729ED965C00E74040 /* Flutter.xcframework in Frameworks */,
+				EF4D360629EE988400D63553 /* Flutter.xcframework in Frameworks */,
+				EF4D360C29EE988600D63553 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				EF4D361829EE988D00D63553 /* shared_preferences_foundation.xcframework in Frameworks */,
+				EF4D360429EE988400D63553 /* google_maps_flutter_ios.xcframework in Frameworks */,
+				EF4D35F829EE988100D63553 /* FMDB.xcframework in Frameworks */,
+				EF4D35FC29EE988200D63553 /* permission_handler_apple.xcframework in Frameworks */,
+				EF4D35FA29EE988100D63553 /* realm.xcframework in Frameworks */,
+				EF4D360029EE988200D63553 /* sqflite.xcframework in Frameworks */,
+				EF4D361229EE988900D63553 /* network_type_reachability.xcframework in Frameworks */,
+				EF4D361629EE988C00D63553 /* wakelock.xcframework in Frameworks */,
+				EF4D361429EE988B00D63553 /* flutter_icmp_ping.xcframework in Frameworks */,
+				EF4D35FE29EE988200D63553 /* device_info_plus.xcframework in Frameworks */,
+				EF4D361A29EE988E00D63553 /* fluttertoast.xcframework in Frameworks */,
+				EF4D35F629EE988100D63553 /* Reachability.xcframework in Frameworks */,
+				EF4D360E29EE988700D63553 /* Toast.xcframework in Frameworks */,
 				1E20BFA5F6B380D8A9814702 /* Pods_native_ios_new1.framework in Frameworks */,
-				EF12E85B29ED966700E74040 /* wakelock.xcframework in Frameworks */,
-				EF12E84329ED965D00E74040 /* network_type_reachability.xcframework in Frameworks */,
-				EF12E85729ED966500E74040 /* permission_handler_apple.xcframework in Frameworks */,
-				EF12E84B29ED966000E74040 /* Toast.xcframework in Frameworks */,
+				EF4D360A29EE988600D63553 /* url_launcher_ios.xcframework in Frameworks */,
+				EF4D360229EE988300D63553 /* App.xcframework in Frameworks */,
+				EF4D361029EE988800D63553 /* path_provider_foundation.xcframework in Frameworks */,
+				EF4D360829EE988500D63553 /* video_player_avfoundation.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,25 +252,25 @@
 		9551242333BFFEBBB69BBF22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF12E83129ED965A00E74040 /* App.xcframework */,
-				EF12E82929ED965800E74040 /* device_info_plus.xcframework */,
-				EF12E82D29ED965900E74040 /* flutter_icmp_ping.xcframework */,
-				EF12E82429ED965700E74040 /* Flutter.xcframework */,
-				EF12E82F29ED965A00E74040 /* FlutterPluginRegistrant.xcframework */,
-				EF12E82C29ED965900E74040 /* fluttertoast.xcframework */,
-				EF12E82729ED965800E74040 /* FMDB.xcframework */,
-				EF12E82529ED965700E74040 /* google_maps_flutter_ios.xcframework */,
-				EF12E82A29ED965900E74040 /* network_type_reachability.xcframework */,
-				EF12E83529ED965B00E74040 /* path_provider_foundation.xcframework */,
-				EF12E83429ED965B00E74040 /* permission_handler_apple.xcframework */,
-				EF12E83029ED965A00E74040 /* Reachability.xcframework */,
-				EF12E82B29ED965900E74040 /* realm.xcframework */,
-				EF12E82829ED965800E74040 /* shared_preferences_foundation.xcframework */,
-				EF12E83229ED965A00E74040 /* sqflite.xcframework */,
-				EF12E82E29ED965A00E74040 /* Toast.xcframework */,
-				EF12E83329ED965B00E74040 /* url_launcher_ios.xcframework */,
-				EF12E82629ED965800E74040 /* video_player_avfoundation.xcframework */,
-				EF12E83629ED965C00E74040 /* wakelock.xcframework */,
+				EF4D35E929EE987F00D63553 /* App.xcframework */,
+				EF4D35E729EE987F00D63553 /* device_info_plus.xcframework */,
+				EF4D35F229EE988000D63553 /* flutter_icmp_ping.xcframework */,
+				EF4D35EB29EE987F00D63553 /* Flutter.xcframework */,
+				EF4D35EE29EE988000D63553 /* FlutterPluginRegistrant.xcframework */,
+				EF4D35F529EE988100D63553 /* fluttertoast.xcframework */,
+				EF4D35E429EE987E00D63553 /* FMDB.xcframework */,
+				EF4D35EA29EE987F00D63553 /* google_maps_flutter_ios.xcframework */,
+				EF4D35F129EE988000D63553 /* network_type_reachability.xcframework */,
+				EF4D35F029EE988000D63553 /* path_provider_foundation.xcframework */,
+				EF4D35E629EE987E00D63553 /* permission_handler_apple.xcframework */,
+				EF4D35E329EE987E00D63553 /* Reachability.xcframework */,
+				EF4D35E529EE987E00D63553 /* realm.xcframework */,
+				EF4D35F429EE988100D63553 /* shared_preferences_foundation.xcframework */,
+				EF4D35E829EE987F00D63553 /* sqflite.xcframework */,
+				EF4D35EF29EE988000D63553 /* Toast.xcframework */,
+				EF4D35ED29EE988000D63553 /* url_launcher_ios.xcframework */,
+				EF4D35EC29EE987F00D63553 /* video_player_avfoundation.xcframework */,
+				EF4D35F329EE988000D63553 /* wakelock.xcframework */,
 				97456C315A10210A0B0DA906 /* Pods_native_ios_new1.framework */,
 				816DED64535CD54C63135DB9 /* Pods_native_ios_new1_native_ios_new1UITests.framework */,
 				7D689345157F5F5FE0220735 /* Pods_native_ios_new1Tests.framework */,
@@ -303,7 +303,7 @@
 				0FAE53B629E4726100A8FD35 /* Frameworks */,
 				0FAE53B729E4726100A8FD35 /* Resources */,
 				06C84A16571CCF6708CC36A7 /* [CP] Copy Pods Resources */,
-				EF12E85D29ED966800E74040 /* Embed Frameworks */,
+				EF4D35E229EE97A800D63553 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -717,18 +717,20 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = native_ios_new1/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LN;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access your local network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mfaf.livingnetwork.com.mfaf.livingNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfaf.livingnetwork.livingNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -751,12 +753,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = native_ios_new1/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LN;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access your local network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access your current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
