@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>Application need to access local network</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Application need to access current location</string>
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_dartobservatory._tcp</string>

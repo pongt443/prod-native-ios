@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     var _status : Bool = false
     var _token : String = ""
+    var _env : String = "prod"
     var _loadingIndicator = UIActivityIndicatorView(style: .large)
     
     var _tapGesture: UITapGestureRecognizer!
@@ -129,10 +130,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func apiGetWhiteList(mobile:String?) {
         if let mobile = mobile {
             print("API-GetWhiteList : Start")
-            //prod
-            guard let url = URL(string:"https://api.adldigitalservice.com/anticorrupt-api/api/v1/whitelist/\(mobile)") else {
-            //iot
-//          guard let url = URL(string:"https://api-stg.adldigitalservice.com/anticorrupt-api/api/v1/whitelist/\(mobile)") else {
+            var tmp : String = "https://api.adldigitalservice.com/anticorrupt-api/api/v1/whitelist/\(mobile)"
+            if(_env == "sit"){
+                tmp = "https://api-stg.adldigitalservice.com/anticorrupt-api/api/v1/whitelist/\(mobile)"
+            }
+            guard let url = URL(string:tmp) else {
                 return
             }
             var request = URLRequest(url: url)
@@ -187,10 +189,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func apiGetEncryptText(plainText:String?, msisdn:String, token:String) {
         if let plainText = plainText {
             print("API-GetEncryptText : Start")
-            //prod
-            guard let url = URL(string:"https://myais-be.cloud.ais.th/v1/utility/encryptText") else {
-            //iot
-//            guard let url = URL(string:"https://sit-myais-be.cdc.ais.th/v1/utility/encryptText")else {
+            var tmp : String = "https://myais-be.cloud.ais.th/v1/utility/encryptText"
+            if(_env == "sit"){
+                tmp = "https://sit-myais-be.cdc.ais.th/v1/utility/encryptText"
+            }
+            guard let url = URL(string:tmp)else {
                 return
             }
             var request = URLRequest(url: url)
@@ -301,10 +304,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     func getAPIToken() -> String {
-        //prod
-        return "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsIjoiTElWSU5HX05FVFdPUksiLCJpYXQiOjE2ODEyMDYwMjcsImV4cCI6MTY4Mzc5ODAyNywiaXNzIjoiaHR0cHM6Ly9teWFpcy5jbG91ZC5haXMudGgiLCJzdWIiOiJMSVZJTkdfTkVUV09SSyJ9.laeWJpzlE_UNsqtizFjcaNQ6bhu3gr_aguKjta-T2O1IUBIkVdgRtXFvhyO-ThJtar2JR301x96EIYU0KAenFNgpJUFUxhamvEYlq247axUZNnwMT-SgVz-yhEjloOPlX903A-_eY8azFx1TtyZ0AJvPossth-ozxn1mFVboCSMgyBFn3Gj5SWJr5EnlTJiKar_WW5NKwNKwbJEsTUpqqQbElz5iM_zqgdJQxVld2R-GWSBtamjg7avmDdqQHkPnN0a8Z4IT3FunBc83YK8fXZLydixzU0SWQm1woUDifKJBK_lBNJ-Lej92mCT3qK9qtJahqdSXY4ZdOgqfKM1OZg"
-        //iot
-//        return "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsIjoiTElWSU5HX05FVFdPUksiLCJpYXQiOjE2ODA4Mzg3MjYsImV4cCI6MTY4MzQzMDcyNiwiaXNzIjoiaHR0cHM6Ly9zaXQtbXlhaXMuY2RjLmFpcy50aCIsInN1YiI6IkxJVklOR19ORVRXT1JLIn0.aiURUh8PusaJ__MXH0S_Oqvk2vZ4Lz638L8YP5jzynQxGYTVdNmCLlhYcFhcxEYvdozCN6t66xKoSuph1bqXi1ZZSPZE68F8bwQAVGURxaM6ePZOcFhDYP3k6RK6yopRTbG9aYHwmVr9gzD51f2y65OxchQAAbH90MvwAz3EMLd-Vri4Sfss8oNZJgMxSaM6IHFG0kfNZMUa1yAHfHywRY61h95XgCrddpgFQIEWlXmQXxwZm7aqhi2xCOTcOs2kF-KgGx4v8izRh0CDGCdZuawyVhxab200GHagIwECmOePjBCr4lTIfOqaVx1sK-ChAZ31FKM1Txr_KDjClfscgQ"
+        if(_env == "sit"){
+            return "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsIjoiTElWSU5HX05FVFdPUksiLCJpYXQiOjE2ODA4Mzg3MjYsImV4cCI6MTY4MzQzMDcyNiwiaXNzIjoiaHR0cHM6Ly9zaXQtbXlhaXMuY2RjLmFpcy50aCIsInN1YiI6IkxJVklOR19ORVRXT1JLIn0.aiURUh8PusaJ__MXH0S_Oqvk2vZ4Lz638L8YP5jzynQxGYTVdNmCLlhYcFhcxEYvdozCN6t66xKoSuph1bqXi1ZZSPZE68F8bwQAVGURxaM6ePZOcFhDYP3k6RK6yopRTbG9aYHwmVr9gzD51f2y65OxchQAAbH90MvwAz3EMLd-Vri4Sfss8oNZJgMxSaM6IHFG0kfNZMUa1yAHfHywRY61h95XgCrddpgFQIEWlXmQXxwZm7aqhi2xCOTcOs2kF-KgGx4v8izRh0CDGCdZuawyVhxab200GHagIwECmOePjBCr4lTIfOqaVx1sK-ChAZ31FKM1Txr_KDjClfscgQ"
+        }else{
+            return "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsIjoiTElWSU5HX05FVFdPUksiLCJpYXQiOjE2ODEyMDYwMjcsImV4cCI6MTY4Mzc5ODAyNywiaXNzIjoiaHR0cHM6Ly9teWFpcy5jbG91ZC5haXMudGgiLCJzdWIiOiJMSVZJTkdfTkVUV09SSyJ9.laeWJpzlE_UNsqtizFjcaNQ6bhu3gr_aguKjta-T2O1IUBIkVdgRtXFvhyO-ThJtar2JR301x96EIYU0KAenFNgpJUFUxhamvEYlq247axUZNnwMT-SgVz-yhEjloOPlX903A-_eY8azFx1TtyZ0AJvPossth-ozxn1mFVboCSMgyBFn3Gj5SWJr5EnlTJiKar_WW5NKwNKwbJEsTUpqqQbElz5iM_zqgdJQxVld2R-GWSBtamjg7avmDdqQHkPnN0a8Z4IT3FunBc83YK8fXZLydixzU0SWQm1woUDifKJBK_lBNJ-Lej92mCT3qK9qtJahqdSXY4ZdOgqfKM1OZg"
+        }
     }
     
     //LN Caller
@@ -331,7 +335,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
 
                   })
-         channel.invokeMethod("open", arguments: _token )
+        let req = [_token, _env]
+        channel.invokeMethod("open", arguments: req )
      }
     
      @objc func showFlutter(){

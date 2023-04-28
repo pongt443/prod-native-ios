@@ -717,8 +717,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = native_ios_new1/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LN;
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access your local network";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access your current location";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access local network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -730,7 +730,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mfaf.livingnetwork.livingNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfaf.livingnetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -753,8 +753,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = native_ios_new1/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = LN;
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access your local network";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access your current location";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Application need to access local network";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application need to access current location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
